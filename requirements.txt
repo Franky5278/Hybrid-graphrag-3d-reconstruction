@@ -1,0 +1,10 @@
+﻿google-genai
+neo4j
+neo4j-graphrag
+pandas
+pypdf
+python-dotenv
+sentence-transformers
+streamlit
+torch
+transformers

@@ -1,0 +1,39 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Raw/copyrighted research documents
+data/papers/
+data/processed/
+data/chunks/
+
+# Generated KG intermediates containing extracted paper text/evidence
+data/kg/kg_extraction_test*.jsonl
+data/kg/kg_extraction_full_raw.jsonl
+
+# Logs / caches
+*.log
+.cache/
+hf_cache/
+torch_cache/
+
+# Temporary files
+*.tmp
+*.zip

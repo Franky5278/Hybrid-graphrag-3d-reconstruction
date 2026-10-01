@@ -1,0 +1,67 @@
+{
+  "DCUDF2 Improving Efficiency and Accuracy in.pdf": {
+    "focal_entities": [
+      {
+        "name": "DCUDF2",
+        "type": "Method",
+        "aliases": []
+      }
+    ]
+  },
+  "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf": {
+    "focal_entities": [
+      {
+        "name": "DM-UDF",
+        "type": "Method",
+        "aliases": [
+          "Density-Regulated and Multi-View Consistent Unsigned Distance Fields"
+        ]
+      }
+    ]
+  },
+  "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf": {
+    "focal_entities": [
+      {
+        "name": "MPFs",
+        "type": "Method",
+        "aliases": [
+          "Metric-Phase Fields"
+        ]
+      }
+    ]
+  },
+  "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf": {
+    "focal_entities": [
+      {
+        "name": "GeoUDF",
+        "type": "Method",
+        "aliases": [
+          "Geometry-guided Distance Representation"
+        ]
+      }
+    ]
+  },
+  "SuperUDF Self-supervised UDF Estimation for.pdf": {
+    "focal_entities": [
+      {
+        "name": "SuperUDF",
+        "type": "Method",
+        "aliases": [
+          "Self-supervised UDF Estimation for Surface Reconstruction"
+        ]
+      }
+    ]
+  },
+  "TOG 2026 - VAD (revised version).pdf": {
+    "focal_entities": [
+      {
+        "name": "VAD",
+        "type": "Method",
+        "aliases": [
+          "Voronoi-Assisted Optimization for Diffusing Unsigned Distance Fields from Unoriented Points",
+          "Voronoi-Assisted Optimization for Diffusing"
+        ]
+      }
+    ]
+  }
+}

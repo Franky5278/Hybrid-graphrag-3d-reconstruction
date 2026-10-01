@@ -1,0 +1,5488 @@
+{
+  "metadata": {
+    "raw_batch_records": 48,
+    "raw_entity_occurrences": 258,
+    "raw_relation_occurrences": 240,
+    "canonical_entities": 94,
+    "canonical_relations": 143,
+    "entity_type_counts": {
+      "Concept": 8,
+      "Dataset": 12,
+      "Method": 57,
+      "Metric": 8,
+      "Model": 2,
+      "Task": 7
+    },
+    "relation_type_counts": {
+      "ADDRESSES": 9,
+      "COMPARED_WITH": 61,
+      "EVALUATES_ON": 22,
+      "IMPROVES": 10,
+      "MEASURED_BY": 15,
+      "USES": 18,
+      "INTRODUCES": 5,
+      "PRODUCES": 3
+    },
+    "dropped_relation_reasons": {
+      "generic dataset phrase": 4,
+      "implementation tool": 2,
+      "type mismatch COMPARED_WITH": 2,
+      "generic comparison category": 1,
+      "target entity unresolved": 1
+    }
+  },
+  "papers": [
+    {
+      "source_file": "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+      "focal_entities": [
+        {
+          "name": "DCUDF2",
+          "type": "Method",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "source_file": "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+      "focal_entities": [
+        {
+          "name": "DM-UDF",
+          "type": "Method",
+          "aliases": [
+            "Density-Regulated and Multi-View Consistent Unsigned Distance Fields"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+      "focal_entities": [
+        {
+          "name": "MPFs",
+          "type": "Method",
+          "aliases": [
+            "Metric-Phase Fields"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+      "focal_entities": [
+        {
+          "name": "GeoUDF",
+          "type": "Method",
+          "aliases": [
+            "Geometry-guided Distance Representation"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "SuperUDF Self-supervised UDF Estimation for.pdf",
+      "focal_entities": [
+        {
+          "name": "SuperUDF",
+          "type": "Method",
+          "aliases": [
+            "Self-supervised UDF Estimation for Surface Reconstruction"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "TOG 2026 - VAD (revised version).pdf",
+      "focal_entities": [
+        {
+          "name": "VAD",
+          "type": "Method",
+          "aliases": [
+            "Voronoi-Assisted Optimization for Diffusing Unsigned Distance Fields from Unoriented Points",
+            "Voronoi-Assisted Optimization for Diffusing"
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "Bi-directional Normal",
+      "type": "Concept",
+      "aliases": [
+        "bi-directional normal formulation",
+        "bi-directional vectors"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c003",
+          "page": 11
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c005",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Laplacian regularization",
+      "type": "Concept",
+      "aliases": [
+        "Laplacian loss"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c003",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c007",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "Projection Distance Field",
+      "type": "Concept",
+      "aliases": [
+        "projection distance fields"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c003",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "self-adaptive weights",
+      "type": "Concept",
+      "aliases": [
+        "wsa"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c002",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c003",
+          "page": 4
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "smooth phase field",
+      "type": "Concept",
+      "aliases": [
+        "theta"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "Unsigned Distance Field",
+      "type": "Concept",
+      "aliases": [
+        "UDF",
+        "UDFs",
+        "Unsigned Distance Fields"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c002",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c004",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c003",
+          "page": 3
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c003",
+          "page": 11
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c004",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "unsigned metric field",
+      "type": "Concept",
+      "aliases": [
+        "r"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "Voronoi Diagram",
+      "type": "Concept",
+      "aliases": [
+        "Voronoi diagrams",
+        "Voronoi tessellation"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Deep Fashion3D V2",
+      "type": "Dataset",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p009_c003",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "DeepFashion3D",
+      "type": "Dataset",
+      "aliases": [
+        "DeepFashion3D dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c005",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c002",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p016_c004",
+          "page": 16
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "DTU",
+      "type": "Dataset",
+      "aliases": [
+        "DTU dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c006",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p008_c004",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "FAMOUS",
+      "type": "Dataset",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "MGN",
+      "type": "Dataset",
+      "aliases": [
+        "MGN dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "ScanNet",
+      "type": "Dataset",
+      "aliases": [
+        "ScanNet dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c006",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c007",
+          "page": 7
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c004",
+          "page": 1
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c008",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "ShapeNet",
+      "type": "Dataset",
+      "aliases": [
+        "ShapeNet Cars",
+        "ShapeNet dataset",
+        "ShapeNet-Car"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c004",
+          "page": 7
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c006",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c004",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c003",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "ShapeNet Core",
+      "type": "Dataset",
+      "aliases": [
+        "ShapeNet Core dataset",
+        "ShapeNet dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c003",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "ShapeNet-Car",
+      "type": "Dataset",
+      "aliases": [
+        "raw ShapeNet car2",
+        "ShapeNet car",
+        "ShapeNet car datasets",
+        "ShapeNet Cars",
+        "ShapeNet-Car dataset"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c005",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c001",
+          "page": 11
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "SRB",
+      "type": "Dataset",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c006",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "SRB dataset",
+      "type": "Dataset",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "Thingi10K",
+      "type": "Dataset",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c006",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "BIM",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "CAP",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c004",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "CAP-UDF",
+      "type": "Method",
+      "aliases": [
+        "CAP",
+        "CAPUDF"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c003",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c002",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c003",
+          "page": 16
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c003",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c004",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p013_c001",
+          "page": 13
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c009",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c002",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c003",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c004",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c003",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "CONet",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c005",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "ConvOcc",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "ConvONet",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "DACPO",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c003",
+          "page": 11
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c003",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c004",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c002",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c003",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "DCUDF",
+      "type": "Method",
+      "aliases": [
+        "original DCUDF"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c005",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c007",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c003",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "DCUDF2",
+      "type": "Method",
+      "aliases": [
+        "method",
+        "our approach",
+        "our enhanced approach",
+        "our method"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c001",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c002",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c003",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p008_c002",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "DeepLS",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "DEUDF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c002",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c005",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c006",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p017_c001",
+          "page": 17
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c005",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c004",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "DiGS",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c007",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "DM-UDF",
+      "type": "Method",
+      "aliases": [
+        "Density-Regulated and Multi-View Consistent Unsigned Distance Fields",
+        "DMUDF"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c001",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c003",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "DOG",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "DUDF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "DWG",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "EdgeConv",
+      "type": "Method",
+      "aliases": [
+        "EdgeConvs"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "GCNO",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "GCNO+sPSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "GeoUDF",
+      "type": "Method",
+      "aliases": [
+        "Geometry-guided Distance Representation",
+        "GeoUDF framework",
+        "UDF-based"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c006",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c002",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c003",
+          "page": 16
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c002",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c003",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c005",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c003",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c004",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "GIFS",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c006",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "Heat Method",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p016_c004",
+          "page": 16
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Hoppe+sPSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "I-filtering",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "IGR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "iPSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "LIG",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "LoSF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "MAFU",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "Marching Cubes",
+      "type": "Method",
+      "aliases": [
+        "Marching Cubes algorithm",
+        "MC"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c006",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c002",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "MeshUDF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c001",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c003",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c006",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c003",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "MLP",
+      "type": "Method",
+      "aliases": [
+        "MLP network"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "MPFs",
+      "type": "Method",
+      "aliases": [
+        "Metric-Phase Fields",
+        "Our method",
+        "Ours"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "NDF",
+      "type": "Method",
+      "aliases": [
+        "NDF method"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c002",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "Neural Pull",
+      "type": "Method",
+      "aliases": [
+        "NP",
+        "NPull"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c004",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c003",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c004",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p013_c001",
+          "page": 13
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "Neural-Pull",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "NSH",
+      "type": "Method",
+      "aliases": [
+        "SDF",
+        "SDF-based"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c007",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c006",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "ONet",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c005",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "Onsurf",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "PG-SDF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "PGR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "POCO",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "point-based differentiable renderer",
+      "type": "Method",
+      "aliases": [
+        "differentiable renderer"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "Point2Mesh",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "PSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "PUGeo-Net",
+      "type": "Method",
+      "aliases": [
+        "PUGeo"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "S2DF",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c002",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c003",
+          "page": 16
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "SAP",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "SNO",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "SNO+sPSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "SPSR",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "StEik",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "SuperUDF",
+      "type": "Method",
+      "aliases": [
+        "Self-supervised UDF Estimation for Surface Reconstruction"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c001",
+          "page": 1
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "topological correction strategy",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c006",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "UDF Estimation Network",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p003_c003",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "VAD",
+      "type": "Method",
+      "aliases": [
+        "Voronoi-assisted framework",
+        "Voronoi-Assisted Optimization for Diffusing",
+        "Voronoi-Assisted Optimization for Diffusing Unsigned Distance Fields from Unoriented Points"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c002",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c007",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c001",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "WNNC",
+      "type": "Method",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "ACC",
+      "type": "Metric",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "Chamfer Distance",
+      "type": "Metric",
+      "aliases": [
+        "CD",
+        "CD Loss",
+        "CD-l1",
+        "CD-l2",
+        "CD1",
+        "CD×103",
+        "Chamfer distance loss",
+        "L1-CD"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c001",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c001",
+          "page": 11
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p002_c006",
+          "page": 2
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c006",
+          "page": 4
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c007",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p004_c004",
+          "page": 4
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c002",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c007",
+          "page": 6
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c007",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c008",
+          "page": 21
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Chamfer-L1",
+      "type": "Metric",
+      "aliases": [
+        "CD"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c008",
+          "page": 5
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "DCD",
+      "type": "Metric",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p002_c006",
+          "page": 2
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "name": "F-Score",
+      "type": "Metric",
+      "aliases": [
+        "F10.005",
+        "F10.01",
+        "F@0.005",
+        "F@0.010"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c004",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Hausdorff Distance",
+      "type": "Metric",
+      "aliases": [
+        "HD",
+        "HD↓"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c007",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c008",
+          "page": 21
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Normal Collinearity",
+      "type": "Metric",
+      "aliases": [
+        "NC"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p009_c004",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "P2F",
+      "type": "Metric",
+      "aliases": [
+        "point-to-face distance"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c001",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "Point Transformer",
+      "type": "Model",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c006",
+          "page": 5
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "name": "SIREN MLP",
+      "type": "Model",
+      "aliases": [
+        "SIREN-based network",
+        "SIREN-style"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c003",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "3D reconstruction",
+      "type": "Task",
+      "aliases": [
+        "reconstruction tasks"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c003",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p002_c001",
+          "page": 2
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "extracting zero level sets from unsigned distance fields",
+      "type": "Task",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c003",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "multi-view reconstruction",
+      "type": "Task",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c006",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "name": "Surface Reconstruction",
+      "type": "Task",
+      "aliases": [
+        "mesh reconstruction",
+        "Point Cloud Reconstruction",
+        "reconstructing non-closed shapes",
+        "reconstructing real-world open scenes",
+        "surface reconstruction from 3D point clouds",
+        "surface reconstruction of real-world point cloud scans"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c003",
+          "page": 4
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c002",
+          "page": 1
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c007",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c002",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p013_c003",
+          "page": 13
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+        "SuperUDF Self-supervised UDF Estimation for.pdf",
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "name": "Surface Reconstruction from 3D Point Clouds",
+      "type": "Task",
+      "aliases": [
+        "reconstructing a discrete surface from a sparse point cloud"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p001_c001",
+          "page": 1
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "name": "surface reconstruction from unoriented point clouds",
+      "type": "Task",
+      "aliases": [
+        "reconstructing surfaces with thin structures, surfaces with boundaries, and non-manifold configurations from unoriented point clouds",
+        "thin-structure reconstruction from unoriented point clouds"
+      ],
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p010_c001",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "name": "zero level set extraction",
+      "type": "Task",
+      "aliases": [],
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "ADDRESSES",
+      "target": "extracting zero level sets from unsigned distance fields",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c003",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "ADDRESSES",
+      "target": "multi-view reconstruction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c006",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "ADDRESSES",
+      "target": "zero level set extraction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "COMPARED_WITH",
+      "target": "CAP-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "COMPARED_WITH",
+      "target": "DCUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c002",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "COMPARED_WITH",
+      "target": "DM-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c001",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "COMPARED_WITH",
+      "target": "MeshUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p002_c001",
+          "page": 2
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c002",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "EVALUATES_ON",
+      "target": "DeepFashion3D",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c005",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c002",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p010_c001",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "EVALUATES_ON",
+      "target": "DTU",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c006",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p008_c004",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c004",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet-Car",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p006_c005",
+          "page": 6
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p010_c001",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "IMPROVES",
+      "target": "DCUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c003",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p007_c003",
+          "page": 7
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c001",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "USES",
+      "target": "Laplacian regularization",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "USES",
+      "target": "Marching Cubes",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "USES",
+      "target": "self-adaptive weights",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DCUDF2",
+      "relation": "USES",
+      "target": "topological correction strategy",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Paper",
+      "source": "DCUDF2 Improving Efficiency and Accuracy in.pdf",
+      "relation": "INTRODUCES",
+      "target": "DCUDF2",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "dcudf2_improving_efficiency_and_accuracy_in_p011_c003",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "DCUDF2 Improving Efficiency and Accuracy in.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "ADDRESSES",
+      "target": "Surface Reconstruction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c003",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "CAP-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "ConvONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "DeepLS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "GIFS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "IGR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "LIG",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "NDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c006",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "Neural-Pull",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "Onsurf",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c001",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "Point2Mesh",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "SAP",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c002",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "COMPARED_WITH",
+      "target": "SPSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet-Car",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c006",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "MEASURED_BY",
+      "target": "DCD",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "MEASURED_BY",
+      "target": "F-Score",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c005",
+          "page": 3
+        },
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p004_c005",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "USES",
+      "target": "MLP",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "USES",
+      "target": "point-based differentiable renderer",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c001",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "DM-UDF",
+      "relation": "USES",
+      "target": "Unsigned Distance Field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c004",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "ADDRESSES",
+      "target": "Surface Reconstruction from 3D Point Clouds",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p001_c001",
+          "page": 1
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "CONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c005",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "DOG",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "GIFS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c006",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "MAFU",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "MeshUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c003",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "NDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c002",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "Neural Pull",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "ONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c005",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "POCO",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "PUGeo-Net",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "COMPARED_WITH",
+      "target": "SAP",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c006",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "EVALUATES_ON",
+      "target": "MGN",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ScanNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c006",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c004",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet Core",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c003",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet-Car",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "CONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "DOG",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "GIFS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "MeshUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c007",
+          "page": 5
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "NDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "ONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "POCO",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "IMPROVES",
+      "target": "SAP",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c005",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "MEASURED_BY",
+      "target": "F-Score",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p006_c004",
+          "page": 6
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p009_c002",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "MEASURED_BY",
+      "target": "P2F",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p008_c001",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "USES",
+      "target": "EdgeConv",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p003_c005",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "GeoUDF",
+      "relation": "USES",
+      "target": "Unsigned Distance Field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "ren_geoudf_surface_reconstruction_from_3d_point_clouds_via_geometry_guided_dista_p003_c006",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Ren_GeoUDF_Surface_Reconstruction_from_3D_Point_Clouds_via_Geometry-guided_Distance_ICCV_2023_paper.pdf"
+      ]
+    },
+    {
+      "source_kind": "Paper",
+      "source": "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf",
+      "relation": "INTRODUCES",
+      "target": "DM-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "learning_density_regulated_and_multi_view_consistent_unsigned_distance_fields_p003_c006",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "Learning_Density_Regulated_and_Multi-View_Consistent_Unsigned_Distance_Fields.pdf"
+      ]
+    },
+    {
+      "source_kind": "Paper",
+      "source": "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf",
+      "relation": "INTRODUCES",
+      "target": "MPFs",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "ADDRESSES",
+      "target": "surface reconstruction from unoriented point clouds",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p005_c001",
+          "page": 5
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "CAP-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c002",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p017_c001",
+          "page": 17
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "DEUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p017_c001",
+          "page": 17
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "DiGS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c007",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "GeoUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c006",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c002",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p017_c001",
+          "page": 17
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "I-filtering",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "NSH",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c007",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c006",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "PG-SDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "S2DF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c003",
+          "page": 8
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c003",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p017_c001",
+          "page": 17
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "COMPARED_WITH",
+      "target": "StEik",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c008",
+          "page": 7
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p016_c001",
+          "page": 16
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "EVALUATES_ON",
+      "target": "ScanNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c006",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c006",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "EVALUATES_ON",
+      "target": "SRB",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c006",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "EVALUATES_ON",
+      "target": "SRB dataset",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p020_c001",
+          "page": 20
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "EVALUATES_ON",
+      "target": "Thingi10K",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c006",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "IMPROVES",
+      "target": "DEUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c002",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p009_c007",
+          "page": 9
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p015_c001",
+          "page": 15
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "PRODUCES",
+      "target": "smooth phase field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "PRODUCES",
+      "target": "unsigned metric field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p008_c008",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "USES",
+      "target": "Marching Cubes",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p007_c002",
+          "page": 7
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "MPFs",
+      "relation": "USES",
+      "target": "SIREN MLP",
+      "target_type": "Model",
+      "evidence": [
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c001",
+          "page": 6
+        },
+        {
+          "chunk_id": "metric_phase_fields_decoupling_distance_and_sign_for_thin_structure_p006_c003",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "Metric—Phase Fields Decoupling Distance and Sign for Thin-Structure.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "ADDRESSES",
+      "target": "Surface Reconstruction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c001",
+          "page": 1
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p003_c002",
+          "page": 3
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "CAP",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c004",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "CAP-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c003",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c004",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p013_c001",
+          "page": 13
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "ConvOcc",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "GIFS",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "MeshUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "NDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "Neural Pull",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c004",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c004",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c003",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p012_c004",
+          "page": 12
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p013_c001",
+          "page": 13
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "ONet",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "COMPARED_WITH",
+      "target": "PSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c001",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c001",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "EVALUATES_ON",
+      "target": "FAMOUS",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "EVALUATES_ON",
+      "target": "MGN",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ScanNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c008",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c006",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "EVALUATES_ON",
+      "target": "ShapeNet",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p002_c002",
+          "page": 2
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c007",
+          "page": 5
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c003",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p008_c002",
+          "page": 8
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p009_c002",
+          "page": 9
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c001",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c002",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c003",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p010_c004",
+          "page": 10
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "MEASURED_BY",
+      "target": "ACC",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p014_c001",
+          "page": 14
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p004_c004",
+          "page": 4
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c002",
+          "page": 6
+        },
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p006_c007",
+          "page": 6
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer-L1",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c008",
+          "page": 5
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "USES",
+      "target": "Point Transformer",
+      "target_type": "Model",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p005_c006",
+          "page": 5
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "SuperUDF",
+      "relation": "USES",
+      "target": "UDF Estimation Network",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p003_c003",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Paper",
+      "source": "SuperUDF Self-supervised UDF Estimation for.pdf",
+      "relation": "INTRODUCES",
+      "target": "SuperUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "superudf_self_supervised_udf_estimation_for_p001_c001",
+          "page": 1
+        }
+      ],
+      "source_files": [
+        "SuperUDF Self-supervised UDF Estimation for.pdf"
+      ]
+    },
+    {
+      "source_kind": "Paper",
+      "source": "TOG 2026 - VAD (revised version).pdf",
+      "relation": "INTRODUCES",
+      "target": "VAD",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c002",
+          "page": 1
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c001",
+          "page": 3
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "ADDRESSES",
+      "target": "3D reconstruction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p002_c001",
+          "page": 2
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "ADDRESSES",
+      "target": "Surface Reconstruction",
+      "target_type": "Task",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "BIM",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "CAP-UDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c002",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c003",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "DACPO",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c003",
+          "page": 11
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "DEUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "DUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "DWG",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "GCNO",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "GCNO+sPSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "GeoUDF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c002",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p015_c003",
+          "page": 15
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "Hoppe+sPSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "iPSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "LoSF",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c005",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "PGR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c004",
+          "page": 4
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "SNO",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "SNO+sPSR",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "COMPARED_WITH",
+      "target": "WNNC",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p004_c005",
+          "page": 4
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p010_c005",
+          "page": 10
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "EVALUATES_ON",
+      "target": "Deep Fashion3D V2",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p009_c003",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "EVALUATES_ON",
+      "target": "DeepFashion3D",
+      "target_type": "Dataset",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p016_c004",
+          "page": 16
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "MEASURED_BY",
+      "target": "Chamfer Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c008",
+          "page": 21
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "MEASURED_BY",
+      "target": "F-Score",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c005",
+          "page": 22
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p022_c007",
+          "page": 22
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "MEASURED_BY",
+      "target": "Hausdorff Distance",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c002",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p012_c006",
+          "page": 12
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c006",
+          "page": 21
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p021_c008",
+          "page": 21
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "MEASURED_BY",
+      "target": "Normal Collinearity",
+      "target_type": "Metric",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p009_c004",
+          "page": 9
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "PRODUCES",
+      "target": "Unsigned Distance Field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p001_c002",
+          "page": 1
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "USES",
+      "target": "Bi-directional Normal",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c003",
+          "page": 11
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c005",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "USES",
+      "target": "Heat Method",
+      "target_type": "Method",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p016_c004",
+          "page": 16
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "USES",
+      "target": "Projection Distance Field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p002_c007",
+          "page": 2
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "USES",
+      "target": "Unsigned Distance Field",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p003_c001",
+          "page": 3
+        },
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p011_c004",
+          "page": 11
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    },
+    {
+      "source_kind": "Entity",
+      "source": "VAD",
+      "relation": "USES",
+      "target": "Voronoi Diagram",
+      "target_type": "Concept",
+      "evidence": [
+        {
+          "chunk_id": "tog_2026_vad_revised_version_p002_c008",
+          "page": 2
+        }
+      ],
+      "source_files": [
+        "TOG 2026 - VAD (revised version).pdf"
+      ]
+    }
+  ]
+}
